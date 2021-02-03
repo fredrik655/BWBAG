@@ -1,0 +1,68 @@
+
+#hero-section {
+  height: 617px;
+  background-image: url(../images/your_verse_hero.jpg);
+  background-position: center 100%;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-section img:hover {
+  cursor: pointer;
+}
+
+#hero-section :first-child {
+  width: 980px;
+}
+
+#hero-section :nth-child(2) {
+  margin-top: -10px;
+}
+
+#hero-section div {
+  margin-top: 30px;
+  overflow: hidden;
+  width: 980px;
+  height: 29px;
+  background-image: url(../images/cta_your_verse_27pt.png);
+  background-position: 0 0;
+  cursor: pointer;
+}
+
+#hero-section div:hover {
+  background-position: 0 -32px;
+}
+
+#promo-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.promo-container {
+  width: 360px;
+  height: 200px;
+  box-sizing: border-box;
+  margin-top: 2px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.promo-container img {
+  width: 100%;
+}
+
+#promo-section :nth-child(1){
+  border-left: none;
+}
+
+#promo-section :nth-child(4){
+  border-right: none;
+}
+

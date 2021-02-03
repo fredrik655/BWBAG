@@ -1,0 +1,109 @@
+
+
+header {
+  position: absolute;
+  width: 100%;
+}
+
+nav {
+  width: 980px;
+  height: 36px;
+  background-image: linear-gradient(#666,#5e5e5e 50%, #707070 50%, #808080);
+  border-radius: 4px;
+  margin: 90px auto;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav li {
+  width: 100%;
+  height: 36px;
+  text-align: center;
+  border: 1px solid white;
+  border: none;
+  border-right: 1px solid black;
+  border-image: url(../images/index.png) 0 2 0 1;
+  border-width: 0 2px 0 1px;
+
+  background-image: url(../images/globalnav_text.png);
+  background-repeat: no-repeat;
+}
+
+nav li:nth-child(1) {
+  background-position: 50% 3px;
+}
+
+nav li:nth-child(2) {
+  background-position: 50% -27px;
+}
+
+nav li:nth-child(3) {
+  background-position: 50% -57px;
+}
+
+nav li:nth-child(4) {
+  background-position: 50% -87px;
+}
+
+nav li:nth-child(5) {
+  background-position: 50% -117px;
+}
+
+nav li:nth-child(6) {
+  background-position: 50% -147px;
+}
+
+nav li:nth-child(7) {
+  background-position: 50% -177px;
+}
+
+nav li:nth-child(8) {
+  background-position: 50% -207px;
+}
+
+nav li:last-child {
+  border: none;
+  background-image: none;
+}
+
+#nav-search{
+  box-sizing: border-box;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  width: 132px;
+  height: 36px;
+  padding: 7px 13px 8px 13px;
+  transition: width 0.3s;
+}
+
+#nav-search input {
+  box-sizing: border-box;
+  width: 100%;
+  background-image: url(../images/index3.png);
+  background-size: 13px 13px;
+  background-repeat: no-repeat;
+  background-position: 7px 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  border-radius: 12px;
+  height: 19px;
+  padding: 2px 18px 1px 22px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+}
+
+#nav-search:focus-within{
+  width: 170px;
+}
+
+#nav-search input:focus-within{
+  background-color: white;
+  background-image: url(../images/index2.png);
+}
+

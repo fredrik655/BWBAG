@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "lucida-grande";
+  src: url(../fonts/LucidaGrande.ttf);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  font: 12px lucida-grande;
+}
+
+#footer-container {
+  width: 980px;
+  height: 50px;
+  padding-top: 2em;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer p, footer span{
+  font-size: 0.8334em;
+  line-height: 1.2em;
+  color: #6e6e6e;
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
+  font-size: 0.8334em;
+  line-height: 1.2em;
+}
+
+#footer-container >:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 12px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#footer-container >:nth-child(2) >* {
+  border-left: 1px solid #ccc;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  white-space: nowrap;
+}
+
+#footer-container >:nth-child(2) >:first-child {
+  border-left: none;
+}
+
+#footer-container >* {
+  height: 12px;
+}
